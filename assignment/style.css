@@ -1,11 +1,94 @@
 /* Give your page a fun background color */
 
-/* Make the header and footer a different color from the background */
+/* Change the font-family of your list */
 
-/* Align the h1 containing your name in the center of the header*/
+body {
+    margin: auto;
+    width: 50%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #47C8F2;
+    color: #0a4444; 
+}
 
-/* Make your p tag a different color and italic */
+.centeredWhiteBG {
+    background-color: aliceblue;
+    width:fit-content;
+
+}
+
+/* Align the h1 containing your name in the center of the header (can do numerous ways, but chose to align all text in header to center*/
+header {
+    text-align: center;
+    padding-top: .5 em;
+}
+
+h1 {
+    color: 	#F4A460;
+    font-size: 4em;
+    text-shadow: 2px 2px #008080;
+    padding-bottom: 0;
+}
+
+h3 {
+    color: #008080;
+}
+
+/* Make the header (lightest blue) and footer (peach) a different color from the background */
+/* Make your p tag a different color and italic chose to target entire footer, could through P tag explicitly as well*/
+footer {
+    padding: 1px 10px 50px 10px;
+    color:#F4A460;
+    font-style:italic;
+    background-color: bisque;
+}
+
+.justifyRight {
+    float: right;
+    padding-right: 100px;
+    font-size: 1em;
+}
+
+.quoteText {
+    font-size: 2em;
+    margin-left: 10px;
+}
 
 /* Put a border around your image */
+img {
+    border: #008080;
+    border-style: solid;
+    border-width: 20px;
+}
 
-/* Change the font-family of your list */
+main {
+    margin-bottom: 0;
+}
+
+
+
+
+/* questions to improve code / coding
+
+1. How would you suggest I center web content? I centered the entire body, as well as a DIV inside.
+For whatever reason it isn't displaying/centering with 100% accuracy. How can I fix this in the future? Thank you. 
+
+2. Is there a number of times you wish to see us "commit" code? 
+I don't feel it's necessary to commit with minor changes, but see the value of different version controls when I'm satisfied enough to commit a "package" of code
+
+3. What other improvements do you (graders) suggest? I welcome little and big suggestions (with understanding there are intense time limitations in this bootcamp)
+
+4. I understand web developers often have more time and more support in completing a website. 
+Sometimes I feel the time limitations for the assignments are challenging for me. 
+I like to use multi-media, javascript, etc. (for example, even exporting photos to .png  / compressed for web on photoshop takes time!) 
+It's challenging to "whip out" many assignments/  micro sites, that are sores to my eyes. 
+There has been a lot of anxiety around that, but working through it! Understand this is all for learning.
+Once I accepted that this assignment is primarily a lesson to learn GIT / Version Control / Practicing Command lind + committing, 
+it allowed me to not focus as heavily on design.
+
+I will do this in upcomming assignments. Think, What are we focusing on? And spend the most effort with comprhension of lesson content.
+
+*/
+
+
+
+
