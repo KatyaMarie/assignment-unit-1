@@ -11,7 +11,7 @@ body {
 }
 
 .centeredWhiteBG {
-    background-color: aliceblue;
+    background-color: #edf5fb;
     width:fit-content;
 
 }
@@ -20,6 +20,7 @@ body {
 header {
     text-align: center;
     padding-top: .5 em;
+    background-color: aliceblue; 
 }
 
 h1 {
